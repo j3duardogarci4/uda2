@@ -1,0 +1,25 @@
+{
+    
+    "dev": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "tunaman",
+        "host": "localhost",
+        "database": "udastore",
+        "port": "5432"
+      
+      },
+  
+    "pg": {
+      "driver": "pg",
+      "user": "postgres",
+      "password": "tunaman",
+      "host": "localhost",
+      "database": "udatest",
+      "port": "5432"
+    
+    }
+  
+ 
+   
+  }
