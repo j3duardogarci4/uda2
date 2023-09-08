@@ -6,8 +6,11 @@ CREATE TABLE orders (
 	quantity int4 NULL,
 	statusorder int4 NULL
 );
+
+CONSTRAINT fk_customer
 FOREIGN KEY(idcust) 
    REFERENCES users(idlogin);
+CONSTRAINT fk_product
 FOREIGN KEY(idprod) 
    REFERENCES products(id);
 
