@@ -44,6 +44,78 @@ Desde la perspectiva actual, identifico oportunidades de mejora
 en separación de responsabilidades, modelamiento de dominio,
 manejo de errores, testing y desacoplamiento de infraestructura.
 
+# UDA — Backend REST API
+
+Backend desarrollado en **TypeScript** utilizando **Node.js, Express y PostgreSQL**.
+
+El proyecto implementa una API REST orientada a la gestión de **usuarios, productos y órdenes**, incluyendo persistencia en PostgreSQL y migraciones de base de datos.
+
+## Tecnologías
+
+* TypeScript
+* Node.js
+* Express
+* PostgreSQL
+* REST API
+* SQL
+* npm
+
+## Estructura
+
+El proyecto organiza sus responsabilidades principalmente en:
+
+```text
+src/
+├── handlers/       # Manejo de solicitudes HTTP
+├── models/         # Modelos y acceso a datos
+├── database/       # Configuración de persistencia
+└── ...
+```
+
+Además, incluye:
+
+* Migraciones de base de datos.
+* Configuración mediante variables de entorno.
+* Configuración diferenciada para ejecución y pruebas.
+* Compilación de TypeScript a JavaScript.
+
+## Funcionalidades
+
+La implementación contempla operaciones relacionadas con:
+
+* Productos.
+* Usuarios.
+* Órdenes.
+* Persistencia en PostgreSQL.
+* Consultas mediante SQL.
+* API REST.
+
+## Propósito
+
+Este proyecto fue desarrollado como parte de un proceso de aprendizaje y práctica de desarrollo backend con **TypeScript y Node.js**.
+
+Representa una etapa de mi evolución técnica en el diseño e implementación de aplicaciones backend, antes de incorporar posteriormente enfoques más explícitos de separación de responsabilidades, modelamiento de dominio y arquitectura.
+
+## Evolución arquitectónica
+
+Desde una perspectiva actual, el proyecto presenta oportunidades de evolución en aspectos como:
+
+* Separación entre dominio, aplicación e infraestructura.
+* Desacoplamiento del acceso a datos.
+* Manejo de errores.
+* Modelamiento de reglas de negocio.
+* Testing.
+* Contratos entre capas.
+
+Estas observaciones forman parte de una revisión arquitectónica posterior del proyecto y no modifican la implementación original.
+
+## Experiencia técnica demostrada
+
+Este proyecto constituye evidencia práctica de experiencia con:
+
+**TypeScript · Node.js · Express · PostgreSQL · SQL · REST APIs · Backend Development**
+
+
 # Storefront Backend Project
 
 ## Getting Started
