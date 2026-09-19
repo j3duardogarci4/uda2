@@ -1,3 +1,49 @@
+# UDA - Backend REST API
+
+## Descripción
+
+Proyecto backend desarrollado como ejercicio práctico utilizando
+TypeScript, Node.js, Express y PostgreSQL.
+
+Implementa una API REST para gestionar usuarios, productos y órdenes.
+
+## Tecnologías
+
+- TypeScript
+- Node.js
+- Express
+- PostgreSQL
+- REST API
+- SQL
+- npm
+
+## Arquitectura
+
+El proyecto utiliza una separación básica entre:
+
+- HTTP handlers
+- Models
+- Database access
+- Migrations
+
+## Capacidades implementadas
+
+- Consulta de productos
+- Consulta de usuarios
+- Gestión de órdenes
+- Persistencia en PostgreSQL
+- Migraciones de base de datos
+- Configuración mediante variables de entorno
+
+## Aprendizajes
+
+Este proyecto representa una etapa inicial de mi evolución en
+desarrollo backend y TypeScript.
+
+Desde la perspectiva actual, identifico oportunidades de mejora
+en separación de responsabilidades, modelamiento de dominio,
+manejo de errores, testing y desacoplamiento de infraestructura.
+
 # Storefront Backend Project
 
 ## Getting Started
